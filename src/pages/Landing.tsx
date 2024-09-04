@@ -10,7 +10,7 @@ function LandingHero() {
   return (
     <GlowBackground>
       <section className="pb-16 pt-16 mx-7 md:mx-12" id="hero">
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+        <div className="w-full flex flex-col md:flex-row md:justify-between">
         
         <div className="pt-8 space-y-4">
           <h2 className="font-mono text-2xl leading-normal">Give a try of Our Delicious, Refreshing, and Affordable Milk Tea!</h2>
